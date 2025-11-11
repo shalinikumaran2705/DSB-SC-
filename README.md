@@ -73,9 +73,11 @@ Output Graph
 <img width="765" height="726" alt="image" src="https://github.com/user-attachments/assets/c52e6ea0-3e84-4d6f-87d7-c7ee5064ef02" />
 
 Tablular Column
+
 <img width="856" height="598" alt="image" src="https://github.com/user-attachments/assets/db6e366c-ab77-454a-b9ff-5d0a73f173c1" />
 
 Result
+
 
 Thus the DSB-SC-AM Modulation and Demodulation is generated.
 

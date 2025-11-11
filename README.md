@@ -70,6 +70,7 @@ xgrid;
 ```
 
 Output Graph
+
 <img width="765" height="726" alt="image" src="https://github.com/user-attachments/assets/c52e6ea0-3e84-4d6f-87d7-c7ee5064ef02" />
 
 Tablular Column

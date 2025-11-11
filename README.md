@@ -48,12 +48,32 @@ Model Waveform
 <img width="703" height="679" alt="image" src="https://github.com/user-attachments/assets/e7c7c7f8-ccf2-41ac-b1f3-325989941a6f" />
 
 Program
+```
+Am=11.5;
+Fm=720;
+Ac=23;
+Fc=7200;
+Fs=94000;
+t=0:1/Fs:2/Fm;
+em = Am*sin(2*3.14*Fm*t);
+subplot(3,1,1);
+plot(t,em);
+xgrid;
+ec = Ac*sin(2*3.14*Fc*t);
+subplot(3,1,2);
+plot(t,ec);
+xgrid;
+edsbsc = ((Am/2).*cos((2*3.14*Fc*t)-(2*3.14*Fm*t)))-((Am/2).*cos((2*3.14*Fc*t)+(2*3.14*Fm*t)));
+subplot(3,1,3);
+plot(t,edsbsc);
+xgrid;
+```
 
 Output Graph
-
+<img width="765" height="726" alt="image" src="https://github.com/user-attachments/assets/c52e6ea0-3e84-4d6f-87d7-c7ee5064ef02" />
 
 Tablular Column
-
+<img width="856" height="598" alt="image" src="https://github.com/user-attachments/assets/db6e366c-ab77-454a-b9ff-5d0a73f173c1" />
 
 Result
 
